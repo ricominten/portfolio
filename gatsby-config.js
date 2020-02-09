@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Portfolio of Rico Minten`,
+    author: `Rico Minten`,
+    description: `Selected work out of the Portfolio of Rico Minten`,
+    siteUrl: `ricominten.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `ricominten`,
     },
   },
   plugins: [
@@ -57,13 +57,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Rico Minten Portfolio`,
+        short_name: `Rico Minten`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/favicon.ico`,
       },
     },
     `gatsby-plugin-react-helmet`,
