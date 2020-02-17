@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from '@emotion/core'
-import React from "react";
+import React from 'react';
 
 import img1 from '../../../static/IMG_5214.jpg';
 import img2 from '../../../static/IMG_5475.jpg';

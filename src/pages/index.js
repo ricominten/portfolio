@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link, graphql} from 'gatsby';
 
-import Bio from '../components/bio';
+import Bio from '../components/Bio';
 import Border from '../components/Border';
 import Divider from '../components/Divider';
 import Layout from '../components/Layout';
@@ -21,67 +21,67 @@ const BlogIndex = ({data, location}) => {
                     <Bio />
                 </header>
                 <Divider />
-                <main>
-                    {posts.map(({node}, index) => {
-                        const title = node.frontmatter.title || node.fields.slug
-                        console.log(index);
-                        return index % 2 === 0 ? (
-                            <article key={node.fields.slug}>
-                                <header>
-                                    <h3
-                                        style={{
-                                            marginBottom: rhythm(1 / 4),
-                                        }}
-                                    >
-                                        <Link style={{boxShadow: `none`}} to={node.fields.slug}>
-                                            {title}
-                                        </Link>
-                                    </h3>
-                                    <small>{node.frontmatter.date}</small>
-                                </header>
-                                <section>
-                                    <p
-                                        dangerouslySetInnerHTML={{
-                                            __html: node.frontmatter.description || node.excerpt,
-                                        }}
-                                    />
-                                </section>
-                            </article>
-                        ) : null
-                    })}
-                </main>
-                <Divider />
-                <main>
-                    {posts.map(({node}, index) => {
-                        const title = node.frontmatter.title || node.fields.slug
-                        return index % 2 === 1 ? (
-                            <article key={node.fields.slug}>
-                                <header>
-                                    <h3
-                                        style={{
-                                            marginBottom: rhythm(1 / 4),
-                                        }}
-                                    >
-                                        <Link style={{boxShadow: `none`}} to={node.fields.slug}>
-                                            {title}
-                                        </Link>
-                                    </h3>
-                                    <small>{node.frontmatter.date}</small>
-                                </header>
-                                <section>
-                                    <p
-                                        dangerouslySetInnerHTML={{
-                                            __html: node.frontmatter.description || node.excerpt,
-                                        }}
-                                    />
-                                </section>
-                            </article>
-                        ) : null
-                    })}
-                </main>
-                <footer>
-                    © {new Date().getFullYear()}
-                </footer>
+                {/*<main>*/}
+                {/*    {posts.map(({node}, index) => {*/}
+                {/*        const title = node.frontmatter.title || node.fields.slug*/}
+                {/*        console.log(index);*/}
+                {/*        return index % 2 === 0 ? (*/}
+                {/*            <article key={node.fields.slug}>*/}
+                {/*                <header>*/}
+                {/*                    <h3*/}
+                {/*                        style={{*/}
+                {/*                            marginBottom: rhythm(1 / 4),*/}
+                {/*                        }}*/}
+                {/*                    >*/}
+                {/*                        <Link style={{boxShadow: `none`}} to={node.fields.slug}>*/}
+                {/*                            {title}*/}
+                {/*                        </Link>*/}
+                {/*                    </h3>*/}
+                {/*                    <small>{node.frontmatter.date}</small>*/}
+                {/*                </header>*/}
+                {/*                <section>*/}
+                {/*                    <p*/}
+                {/*                        dangerouslySetInnerHTML={{*/}
+                {/*                            __html: node.frontmatter.description || node.excerpt,*/}
+                {/*                        }}*/}
+                {/*                    />*/}
+                {/*                </section>*/}
+                {/*            </article>*/}
+                {/*        ) : null*/}
+                {/*    })}*/}
+                {/*</main>*/}
+                {/*<Divider />*/}
+                {/*<main>*/}
+                {/*    {posts.map(({node}, index) => {*/}
+                {/*        const title = node.frontmatter.title || node.fields.slug*/}
+                {/*        return index % 2 === 1 ? (*/}
+                {/*            <article key={node.fields.slug}>*/}
+                {/*                <header>*/}
+                {/*                    <h3*/}
+                {/*                        style={{*/}
+                {/*                            marginBottom: rhythm(1 / 4),*/}
+                {/*                        }}*/}
+                {/*                    >*/}
+                {/*                        <Link style={{boxShadow: `none`}} to={node.fields.slug}>*/}
+                {/*                            {title}*/}
+                {/*                        </Link>*/}
+                {/*                    </h3>*/}
+                {/*                    <small>{node.frontmatter.date}</small>*/}
+                {/*                </header>*/}
+                {/*                <section>*/}
+                {/*                    <p*/}
+                {/*                        dangerouslySetInnerHTML={{*/}
+                {/*                            __html: node.frontmatter.description || node.excerpt,*/}
+                {/*                        }}*/}
+                {/*                    />*/}
+                {/*                </section>*/}
+                {/*            </article>*/}
+                {/*        ) : null*/}
+                {/*    })}*/}
+                {/*</main>*/}
+                {/*<footer>*/}
+                {/*    © {new Date().getFullYear()}*/}
+                {/*</footer>*/}
             </Layout>
         </React.Fragment>
     )
