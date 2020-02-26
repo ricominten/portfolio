@@ -2,31 +2,22 @@
 import { jsx } from '@emotion/core'
 import React from 'react';
 
-import {title} from './Bio.styles';
+import {title, svg} from './Bio.styles';
 
 const Bio = () => {
 	return (
 		<div>
-			<code css={title}>
-				<span>____/\\\\\\\\\________/\\\\\\\\\\\___</span>
-				<span>&nbsp;__/\\\///////\\\_____\/////\\\///____</span>
-				<span>&nbsp;&nbsp;_\/\\\_____\/\\\_________\/\\\_______</span>
-				<span>&nbsp;&nbsp;&nbsp;_\/\\\\\\\\\\\/__________\/\\\_______</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\//////\\\__________\/\\\_______</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\____\//\\\_________\/\\\_______</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\_____\//\\\________\/\\\_______</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\______\//\\\____/\\\\\\\\\\\___</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\///________\///____\///////////____</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;________/\\\\\\\\\_______/\\\\\______</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_____/\\\////////______/\\\///\\\____</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;___/\\\/_____________/\\\/__\///\\\__</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__/\\\______________/\\\______\//\\\_</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\/\\\_____________\/\\\_______\/\\\_</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_\//\\\____________\//\\\______/\\\__</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__\///\\\___________\///\\\__/\\\____</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;____\////\\\\\\\\\____\///\\\\\/_____</span>
-				<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_______\/////////_______\/////_______</span>
-			</code>
+			<h1>
+				<svg css={svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.25 78.7">
+					<title>Rico</title>
+					<desc>Image logo</desc>
+					<rect className="cls-1" x="50.03" y="28.25" width="40.09" height="12.3"/>
+					<path className="cls-1" d="M53.72,19.25h32.7a3.73,3.73,0,0,1,0,7.45H53.72a3.73,3.73,0,0,1,0-7.45Z"/>
+					<path className="cls-1" d="M40.2,44.13v6.92a3.73,3.73,0,0,0,0,7.45v6.92H5.6a5.49,5.49,0,0,1-5.48-5.5V49.63a5.48,5.48,0,0,1,5.48-5.5Z"/>
+					<path className="cls-1" d="M40.27,30.63c3.35,0,6.07-3.17,6.07-7.09V7.21c0-3.91-2.72-7.09-6.07-7.09H8.64v40.4h20.1V35.69l3,4.83H46.23L40.1,30.63Zm-8.54-4.57c0,.55-.67,1-1.5,1s-1.5-.45-1.5-1V11c0-.55.67-1,1.5-1s1.5.45,1.5,1Z"/>
+					<path className="cls-1" d="M81.51,44.12H49.88a6.12,6.12,0,0,0-6.1,6.13v22.2a6.11,6.11,0,0,0,6.1,6.12H81.51a6.11,6.11,0,0,0,6.1-6.12V50.25A6.12,6.12,0,0,0,81.51,44.12ZM67.2,65.85c0,.55-.67,1-1.5,1s-1.5-.45-1.5-1v-9c0-.55.67-1,1.5-1s1.5.45,1.5,1Z"/>
+				</svg>
+			</h1>
 			<br/><br/>
 			<p>
 				Rico is a front-end developer in Sydney, currently working on large scale builds for Deloitte Digital clients.

@@ -8,3 +8,8 @@ export const title = css`
         display: block;
     }
 `;
+
+export const svg = css`
+    width: 90%;
+    height: auto;
+`;
