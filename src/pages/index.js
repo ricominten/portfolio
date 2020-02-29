@@ -6,7 +6,8 @@ import Border from '../components/Border';
 import Divider from '../components/Divider';
 import Layout from '../components/Layout';
 import SEO from '../components/seo';
-import {rhythm} from '../utils/typography';
+
+import global from '../styles/global.styles';
 
 const BlogIndex = ({data, location}) => {
     const siteTitle = data.site.siteMetadata.title
@@ -20,7 +21,7 @@ const BlogIndex = ({data, location}) => {
                     <SEO title='All posts'/>
                     <Bio />
                 </header>
-                <Divider />
+                {/*<Divider />*/}
                 {/*<main>*/}
                 {/*    {posts.map(({node}, index) => {*/}
                 {/*        const title = node.frontmatter.title || node.fields.slug*/}
