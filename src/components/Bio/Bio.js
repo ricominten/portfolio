@@ -27,8 +27,7 @@ const Bio = () => {
 				</svg>
 			</h1>
 			<p css={styles.intro}>
-				Rico is a front-end developer in Sydney, currently working on large scale builds for Deloitte Digital clients.
-				With a background in industrial design, he tries to create interfaces and front-end systems that work for everyone, and that support accessibility needs.
+				Rico is a front-end developer in Sydney. With a background in industrial design, he tries to create interfaces and front-end systems that work for everyone, and that support accessibility needs.
 			</p>
 			<p css={styles.intro}s>
 				A creative technologist at heart, Rico can be found on Twitter, Github and Codepen straddling the space between design and technology.
