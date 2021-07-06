@@ -6,10 +6,6 @@ export const wrapper = css`
 
 
 export const title = css`
-    font-family: var(--font-title);
-    font-size: 36px;
-    line-height: 53px;
-    letter-spacing: 0.015em;
     margin: 0;
 `;
 
