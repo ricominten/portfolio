@@ -1,7 +1,2 @@
-#Portfolio site of Rico Minten
+# Portfolio
 
----
-
-Built with
-- Gatsby
-- Netlify

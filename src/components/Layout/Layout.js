@@ -1,15 +1,11 @@
-/** @jsx jsx */
-import { jsx } from '@emotion/core'
-import React from 'react';
+/** @jsxImportSource @emotion/react */
+import React from "react";
+import * as styles from "./layout.style";
 
-import {layout} from './Layout.styles';
-
-const Layout = ({ children }) => {
-  return (
-    <div css={layout}>
-      {children}
+const Layout = ({children}) => (
+    <div css={styles.container}>
+        {children}
     </div>
-  )
-}
+);
 
-export default Layout
+export default Layout;
