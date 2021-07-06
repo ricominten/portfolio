@@ -16,7 +16,7 @@ export const global = css`
         --font-h1-letter-spacing: 0.015em;
         
         --font-h2-family: var(--font-title);
-        --font-h3-weight: 400;
+        --font-h2-weight: 400;
         --font-h2-size: 24px;
         --font-h2-line-height: 36px;
         --font-h2-letter-spacing: 0.015em;
@@ -42,7 +42,12 @@ export const global = css`
         --font-button-line-height: 24px;
         --font-button-letter-spacing: 0.015em;
         
-        --font-colour: var(--font-black)
+        --font-colour: var(--colour-black);
+        
+        // @media (prefers-color-scheme: dark) {
+        //     --colour-black: #ffffff;
+        //     --colour-white: #222222;
+        // }
     }
     
     body {
