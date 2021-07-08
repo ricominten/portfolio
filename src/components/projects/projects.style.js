@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
 
 export const wrapper = css`
-    grid-area: footer;
+    height: 1000px;
 `;
 
 

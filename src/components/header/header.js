@@ -5,7 +5,7 @@ import * as styles from "./header.style";
 
 const Header = () => (
     <header css={styles.wrapper}>
-        <h1 css={styles.title}>Hello, I&apos;m Rico</h1>
+        <h1 css={styles.title}>Hello, I&rsquo;m Rico</h1>
     </header>
 );
 

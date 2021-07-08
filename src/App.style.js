@@ -4,15 +4,15 @@ export const global = css`
     body {
         --colour-black: #000000;
         --colour-white: #ffffff;
-    
+        --colour-light-grey: #E5E5E5;
     
         --font-title: 'Space Mono', monospace;
         --font-body: 'Work Sans', sans-serif;
         
         --font-h1-family: var(--font-title);
         --font-h1-weight: 400;
-        --font-h1-size: 24px;
-        --font-h1-line-height: 36px;
+        --font-h1-size: 36px;
+        --font-h1-line-height: 53px;
         --font-h1-letter-spacing: 0.015em;
         
         --font-h2-family: var(--font-title);
@@ -44,6 +44,10 @@ export const global = css`
         
         --font-colour: var(--colour-black);
         
+        --colour-button: var(--colour-light-grey);
+        --colour-button-hover: linear-gradient(77.51deg, #C7FCCC 0%, #A2FCF9 100%);
+        --colour-button-light: #C7FCCC;
+        
         // @media (prefers-color-scheme: dark) {
         //     --colour-black: #ffffff;
         //     --colour-white: #222222;
@@ -68,6 +72,7 @@ export const global = css`
             font-size: var(--font-h2-size);
             line-height: var(--font-h2-line-height);
             letter-spacing: var(--font-h2-letter-spacing);
+            margin-bottom: 32px;
         }
         
         
@@ -79,12 +84,17 @@ export const global = css`
             letter-spacing: var(--font-h3-letter-spacing);
         }
         
-        body {
+        p {
             font-family: var(--font-body-family);
             font-weight: var(--font-body-weight);
             font-size: var(--font-body-size);
             line-height: var(--font-body-line-height);
             letter-spacing: var(--font-body-letter-spacing);
         }
+        
+        b {
+            font-weight: var(font-bold-weight);
+        }
+        
     }
 `;
