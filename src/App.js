@@ -2,7 +2,7 @@
 import React  from 'react';
 import {Global} from "@emotion/react";
 
-import {Layout, Header, Footer, Main} from "./components";
+import { Layout, Header, Footer, Main } from "./components/index";
 import * as styles from "./App.style";
 
 const App = () => (
