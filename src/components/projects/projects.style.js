@@ -1,7 +1,6 @@
 import { css } from '@emotion/react';
 
 export const wrapper = css`
-    height: 1000px;
 `;
 
 
