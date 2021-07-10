@@ -1,6 +1,6 @@
 {
-  "name": "Hello, Hello World!",
-  "short_name": "Hello",
+  "name": "Portfolio of Rico Minten",
+  "short_name": "ricominten.com",
   "icons": [
     {
       "src": "android-chrome-192x192.png",
@@ -14,7 +14,7 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",,
+  "display": "standalone",
   "theme_color": "#101c24",
   "background_color": "#101c24"
 }
