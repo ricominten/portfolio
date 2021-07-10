@@ -1,6 +1,7 @@
 {
   "name": "rico-minten-portfolio",
   "author": "Rico Minten <ricominten@gmail.com>",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
