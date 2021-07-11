@@ -10,7 +10,7 @@ const Projects = () => (
     <div css={styles.wrapper}>
         <h2>Projects</h2>
         {content.map((article) => (
-            <Article article={article} />
+            <Article article={article} key={article.title} />
         ))}
     </div>
 );

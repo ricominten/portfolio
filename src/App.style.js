@@ -48,10 +48,13 @@ export const global = css`
         --colour-button-hover: linear-gradient(77.51deg, #C7FCCC 0%, #A2FCF9 100%);
         --colour-button-light: #C7FCCC;
         
-        // @media (prefers-color-scheme: dark) {
-        //     --colour-black: #ffffff;
-        //     --colour-white: #222222;
-        // }
+        @media (prefers-color-scheme: dark) {
+            --colour-black: #ffffff;
+            --colour-white: #222222;
+            --colour-light-grey: #666666;
+            --colour-button-hover: linear-gradient(77.51deg, #582d2f 0%, #5d0532 100%);
+            --colour-button-light: #582d2f;
+        }
     }
     
     body {
