@@ -90,6 +90,39 @@ export const global = css`
             font-size: var(--font-body-size);
             line-height: var(--font-body-line-height);
             letter-spacing: var(--font-body-letter-spacing);
+            
+            a {
+                color: var(--font-colour);
+                position: relative;
+                width: auto;
+                text-decoration: none;
+                
+                &:after {
+                    content: '';
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                    width: 100%;
+                    height: 2px;
+                    background-color: var(--colour-button);
+                    z-index: 0;
+                }
+                
+                &:hover, &:focus {
+                    color: var(--colour-button-hover);
+                    
+                    &:after {
+                        background: var(--colour-button-hover);
+                    }
+                }
+                
+                &:focus {
+                    border: 1px solid var(--colour-button-hover);
+                    outline: 2px solid var(--colour-button-light);
+                    outline-offset: 3px;
+                }
+            
+            }
         }
         
         b {

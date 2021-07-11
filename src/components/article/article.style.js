@@ -2,7 +2,7 @@ import { css } from '@emotion/react';
 
 
 export const wrapper = css`
-    margin-bottom: 32px;
+    margin-bottom: 48px;
 `;
 
 export const title = css`
@@ -65,8 +65,5 @@ export const button = css`
         outline: 2px solid var(--colour-button-light);
         outline-offset: 3px;
     }
-`;
-
-export const arrow = css`
 `;
 
